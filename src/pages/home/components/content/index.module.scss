@@ -1,0 +1,17 @@
+@use "@/styles/_mixins.scss";
+
+.container {
+  height: 100%;
+  flex-direction: column;
+  @include mixins.flex-box;
+}
+
+.goto {
+  cursor: pointer;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.count {
+  margin: 0 10px;
+}
