@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import generateRouteView from "@/utils/generate-route-view";
+import { generateRouteView } from "@/utils/generate-route-view";
 import Layout from "./layouts";
 import "@/styles/common.css";
 import "@/styles/reset.css";

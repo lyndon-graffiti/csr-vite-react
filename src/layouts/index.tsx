@@ -1,4 +1,4 @@
-import generateRouteView from "@/utils/generate-route-view";
+import { generateRouteView } from "@/utils/generate-route-view";
 import { Outlet } from "react-router-dom";
 import styles from "./index.module.scss";
 import { NavLink } from "react-router-dom";

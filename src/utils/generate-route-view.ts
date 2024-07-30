@@ -3,7 +3,7 @@ import { routes } from "@/routers";
 /**
  * 获取每个具体页面的元信息
  */
-export default () => {
+export const generateRouteView = () => {
   const finallyPagePathMap: RouteConfig[] = [];
 
   const traverse = (parentPath: string, currentRouters: RouteConfig[]) => {

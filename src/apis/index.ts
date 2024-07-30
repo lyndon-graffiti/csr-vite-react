@@ -1,6 +1,6 @@
 import axios from "axios";
 import type { AxiosInstance, AxiosError, InternalAxiosRequestConfig, AxiosResponse } from "axios";
-import getRequestBaseUrl from "@/utils/get-request-base-url";
+import { getRequestBaseUrl } from "@/utils/get-request-base-url";
 
 type InstanceParams = {
   baseURL: string;
