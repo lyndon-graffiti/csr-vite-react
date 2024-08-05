@@ -11,10 +11,6 @@
     "vite",
     "react"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lyndon-graffiti/react-csr-template"
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
