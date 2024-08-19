@@ -1,6 +1,7 @@
 {
   "name": "@lyndon/csr-vite-react",
   "version": "1.0.0",
+  "description": "a project which is the best practices for react project",
   "type": "module",
   "author": {
     "name": "lyndon.",

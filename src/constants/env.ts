@@ -1,4 +1,4 @@
-export enum EnvEnum {
+export enum Env {
   Fat = "fat",
   Prod = "prod",
 }
